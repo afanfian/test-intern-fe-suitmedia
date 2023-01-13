@@ -1,0 +1,73 @@
+/* Caraousel */
+.caraousel-caption{
+    background-color: rgba(0, 0, 0, 0.581); /* transparent white */
+    display:inline-block;
+    padding: 20px;
+}
+/* Our Values */
+.innovative{
+    background-color: #ff6800;
+}
+.loyality{
+    background-color: #5aab61;
+}
+.respect{
+    background-color: #45b6fe;
+}
+.balance{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+label {
+    font-weight: 700;
+    width: 100%;
+    padding-right: 16%;
+}
+
+input, textarea{
+    width: 20%;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.btn{
+    width: 20%;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .caraousel-caption{
+        font-size: 10px;
+    }
+    label {
+        padding-right: 50%;
+    }
+    input, textarea{
+        width: 70%;
+    }
+    .btn{
+        width: 70%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .caraousel-caption{
+        font-size: 10px;
+    }
+    input, textarea{
+        padding-right: 50%;
+        width: 70%;
+    }
+    .btn{
+        width: 70%;
+    }
+} 
